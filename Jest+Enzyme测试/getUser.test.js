@@ -1,7 +1,7 @@
 
 jest.mock('./ajax'); // manual mock / mock.fn();
 jest.mock('jquery');
-let getUser = require('./getUser'); 
+let getUser = require('./getUser');
 it('test getUser',(done)=>{
     document.body.innerHTML = `<div id="userList"></div>`;
     getUser('./user.json',()=>{
@@ -13,5 +13,3 @@ it('test getUser',(done)=>{
 });
 let $ = jqeury;
 $();
-
-// 6期开课 讲promise

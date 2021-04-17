@@ -118,7 +118,7 @@ console.log(JSON.parse(JSON.stringify({ ...nameObj, ...ageObj })));
 function deepClone(obj){
     if(typeof obj !== 'object') return obj;
     if(obj === null) return obj;
-    if(obj instanceof RegExp) return new RegExp(obj); 
+    if(obj instanceof RegExp) return new RegExp(obj);
     if(obj instanceof Date) return new Date(obj);
     let o = new obj.constructor();
     for(let key in obj){
@@ -228,13 +228,13 @@ console.log(typeof symbol === 'symbol')
 ### 6.2 Symbol.for
 记录symbol
 ```
-let s = Symbol.for('zhufeng');
-let s1 = Symbol.for('zhufeng');
+let s = Symbol.for('water');
+let s1 = Symbol.for('water');
 console.log(s === s1);
 ```
 ### 6.3 Symbol.keyFor
 ```
-let s = Symbol.for('zhufeng');
+let s = Symbol.for('water');
 let desc = Symbol.keyFor(s);
 console.log(desc); // 查找描述
 ```
@@ -245,7 +245,7 @@ let obj = {0:1,1:2,length:2,[Symbol.iterator]:function *(){
     let index = 0;
     while(index !== this.length){
         yield this[index++]
-    }   
+    }
 }};
 let arr = [...obj];
 console.log(arr);

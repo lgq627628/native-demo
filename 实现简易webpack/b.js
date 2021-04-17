@@ -14,7 +14,7 @@ let str = req('./a.js');
 console.log(str)
 /*
     function(exports,module,require,__dirname,__filename){
-        module.exports = '欢迎参加水下架构公开课'
+        module.exports = '水下'
         return module.exports
     }
 

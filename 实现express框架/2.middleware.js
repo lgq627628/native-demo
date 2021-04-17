@@ -19,7 +19,7 @@ app.get('/age', (req, res) => {
   res.end('年龄9岁');
 });
 app.get('/name/n', (req, res) => {
-  res.end('水下培训');
+  res.end('水下');
 });
 // 错误中间件(4个参数)放到路由的下面
 app.use(function (err,req,res,next) {

@@ -29,12 +29,6 @@ class Counter extends React.Component{
   }
 }
 ReactDom.render(<Counter store={store}></Counter>,window.root);
-// 下一期架构课 8.25 日
-// 全部订单中 有一个评价按钮 追加评价
-// observe 可以监控数据的变化
-// when 当xxx时
-// reaction 
-// spy ....
 
 // class Person {
 //   // 类的装饰器

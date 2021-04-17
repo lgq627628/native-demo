@@ -773,7 +773,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = '欢迎大家参加架构公开课'\n\n//# sourceURL=webpack:///./src/a.js?");
+eval("module.exports = '欢迎大家'\n\n//# sourceURL=webpack:///./src/a.js?");
 
 /***/ }),
 

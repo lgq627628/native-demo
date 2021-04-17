@@ -11,6 +11,6 @@
     ({
       "./src/index.js":
         (function (module, exports) {
-          eval("\r\nconsole.log('欢迎参加水下公开课');\n\n//# sourceURL=webpack:///./src/index.js?");
+          eval("\r\nconsole.log('欢迎参加水下');\n\n//# sourceURL=webpack:///./src/index.js?");
         })
     });

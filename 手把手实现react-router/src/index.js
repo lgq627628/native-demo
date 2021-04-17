@@ -15,7 +15,7 @@ export default class App extends Component {
         <div className="navbar navbar-inverse">
           <div className="container-fluid">
             <div className="navbar-heading">
-              <div className="navbar-brand">水下公开课</div>
+              <div className="navbar-brand">水下</div>
             </div>
             <div className="nav navbar-nav">
               <li> <Link to="/home">首页</Link></li>

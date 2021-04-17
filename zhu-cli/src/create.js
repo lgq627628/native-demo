@@ -140,10 +140,3 @@ module.exports = async (projectName) => {
 
 
 // 10分钟
-
-
-// 下一期架构课 9月22日 开新班
-// 团购有优惠
-
-
-//

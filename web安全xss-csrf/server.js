@@ -37,7 +37,7 @@ app.get('/welcome', function (req, res) {
 });
 
 // 用户评论信息
-let comments = [{ username: 'zfpx', content: '欢迎大家参加水下架构课' }, { username: 'zs', content: '进阿里 选水下' }]
+let comments = [{ username: 'water', content: '欢迎大家' }, { username: 'zs', content: '水下' }]
 
 app.get('/api/list', function (req, res) {
   res.json({ code: 0, comments });
@@ -114,8 +114,3 @@ app.listen(3000);
 // 跨站请求伪造  钓鱼网站
 // 给个吸引他的网站
 
-
-
-// 架构课 第六期 8月25日
-// 在腾讯课堂通过 右上角 我的订单 课程评价
-//

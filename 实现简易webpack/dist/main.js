@@ -19,7 +19,7 @@ console.log(result);`);
         ,
             "src\a.js":
             (function (module, exports, require) {
-                eval(`module.exports = '3.4架构课2期'
+                eval(`module.exports = ''
 `);
             })
         ,
@@ -31,5 +31,5 @@ console.log(result);`);
         document.head.appendChild(style)
     `);
             })
-        
+
     });

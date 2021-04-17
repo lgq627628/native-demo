@@ -1,4 +1,4 @@
-class Zhufeng{
+class Water{
   constructor(options){
     this._data = options.data;
     this.observe(this._data);
@@ -27,7 +27,7 @@ class Zhufeng{
     })
   }
 }
-let zhufeng = new Zhufeng({
+let vm = new Water({
   data:{name:{name:1}}
 });
-zhufeng._data.name.name = 2;
+vm._data.name.name = 2;

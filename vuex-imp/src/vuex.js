@@ -84,7 +84,7 @@ class Store{ // state getters mutations actions
             }
         });
 
-        // 把模块直接的关系进行整理  自己根据用户传入的参数维护了一个对象 
+        // 把模块直接的关系进行整理  自己根据用户传入的参数维护了一个对象
         // root._children=>a._children=>b
         this.modules = new ModuleCollection(options);
         //  无论是子模块 还是孙子 所有的mutation 都是根上的
@@ -128,7 +128,7 @@ class Store{ // state getters mutations actions
     get state(){ // Object.definefineProperty get
         return this._vm.state;
     }
-    commit(type){ // undefine 
+    commit(type){ // undefine
         this.mutations[type].forEach(fn=>fn());
     }
     dispatch(type){
@@ -158,8 +158,3 @@ export default {
     Store,
     install
 }
-
-// 这期 报名第二期  周日就涨价了
-
-// 核心用法
-// 架构课 第二期 开课时间  3月15日

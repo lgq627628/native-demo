@@ -55,6 +55,3 @@ var My = (_dec = desc('1'), _dec2 = desc('2'), (_class = function () {
     return My;
 }(), (_applyDecoratedDescriptor(_class.prototype, 'my', [_dec, _dec2], Object.getOwnPropertyDescriptor(_class.prototype, 'my'), _class.prototype)), _class));
 
-// 周五  休息一天
-// 分组 交作业
-// 不会es6的  周六晚上公开课 jwt 开课课 8.30

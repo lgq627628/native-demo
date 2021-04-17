@@ -24,14 +24,10 @@ let jwt = {
     encode(payload,secret){
         let header = this.toBase64(JSON.stringify({'typ':'JWT',alg:'HS256'}));
         let content = this.toBase64(JSON.stringify(payload));
-        // 签名使用 header + . + content 
+        // 签名使用 header + . + content
         let sign = this.sign([header,content].join('.'),secret);
         // 生成好签名了
         return [header,content,sign].join('.');
     }
 }
 module.exports = jwt
-
-
-// 第五期 明天node第一天 想报名同学可以参加这一期
-// 1 3 5 晚上 8-10  周日全天

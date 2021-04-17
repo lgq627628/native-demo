@@ -61,10 +61,5 @@ let install = async () => {
 // vue会使模板引擎
 // vue init 当前的下载好的模板 生成到项目目录中
 // vue uninstall
-// 选择技术 
+// 选择技术
 exports.default = install;
-
-// 7月 15 架构师正式课开始了 
-// 下一期 上课时间  1 3 5 晚上8-10  周日全天
-// http://www.zhufengpeixun.com/main/course/index.html
-// QQ:3276033605
